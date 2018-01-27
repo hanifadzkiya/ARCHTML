@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<title> Peminjaman Barang </title>
+		<link rel="icon" href="img/arc.png">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+	<div class="container">
+		<div class="mb text-center">
+			<img class="mb" src="img/arc.png" alt="Logo-ARC">
+			<h2> Peminjaman Barang </h2>
+			<p> Selamat datang. Anda bisa meminjam barang disini </p>
+		</div>
+		<h4 class="mb"> Data peminjam </h4>
+		<form>
+			<div class="mb">
+			<p class="mb">
+				<label> Nama Awal : </label>
+				<input class="form-field" type="text" placeholder="namamu">
+			</p>
+			<p class="mb">
+				<label> Nama Akhir : </label> 
+				<input class="form-field" type="text" placeholder="namaku">
+			</p>
+			<p class="mb">
+				<label> Email : </label>
+				<input class="form-field" type="email" placeholder="namamu@example.com" required>
+			</p>
+			<p  class="mb">
+				<label> NIM : </label>
+				<input class="form-field" type="number" placeholder="123456" required>
+			</p>
+			</div>
+			<div class="mb">
+			<h4 class="mb"> Data Barang </h4>
+			<p  class="mb">
+				<label> Nama Barang : </label>
+				<select class="pilih">
+					<option class="pilih"> VPS </option>
+					<option class="pilih"> Kabel UTP </option>
+					<option class="pilih"> Router </option>
+					<option class="pilih"> Proyektor </option>
+					<option class="pilih"> Layar LCD </option>
+				</select>
+			</p>
+			<p  class="mb">
+				<label> Tanggal Peminjaman : </label>
+				<input class="form-field" id="date" type="date" required>
+			</p>
+			<p  class="mb">
+				<label> Tanggal Dikembalikan : </label>
+				<input class="form-field" id="date" type="date" required>
+			</p>
+			</div>
+			<hr  class="mb">
+			<input  class="form-field mb" type="submit" value="Pinjam Sekarang">
+		</form>
+		<footer  class="mb">
+			<p> &copy; 2017-2018 <a href="http://arc.itb.ac.id" target="_blank"> Ameteur Radio Club ITB </a></p>
+		</footer>
+	</div>
+	</body>
+</html>
